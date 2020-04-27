@@ -21,4 +21,7 @@ Parte III
  awk 'NR%2==0{print length "."}' file_2.fa
  awk 'NR%2==0{print length "."}' file.fa >longitudes_2.csv
  ln -s /sequence.gff3 /home/genomica_2020-2/nueva/bioCompu_p02/data/filtered/sequence.gff3
+ awk '{print $3}' home/genomica_2020-2/nueva/bioCompu_p02/data/filtered/sequence.gff3 | sort | uniq -c
+ categorías:
+CDS= 12,five_prime_UTR= 1, gene= 11, region= 1, stem_loop= 5, three_prime_UTR
 Respuesta de la pregunta 3: 
