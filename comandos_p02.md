@@ -20,4 +20,5 @@ Parte III
  awk 'NR%2==0{print length "."}' file.fa >longitudes1.csv
  awk 'NR%2==0{print length "."}' file_2.fa
  awk 'NR%2==0{print length "."}' file.fa >longitudes_2.csv
- #gaby g
+ ln -s /sequence.gff3 /home/genomica_2020-2/nueva/bioCompu_p02/data/filtered/sequence.gff3
+Respuesta de la pregunta 3: 
