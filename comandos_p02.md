@@ -1,8 +1,8 @@
-Comandos de git practica02
-Equipo BioCompu
-Integrante 1: Gúzman Favila Gabriela
-Integrante 2: Hernández Luna Nora Hilda
-Integrante 3: Rosas Paz Miguel Ángel 
+#  Comandos de git practica02
+## Equipo BioCompu
+## Integrante 1: Gúzman Favila Gabriela
+## Integrante 2: Hernández Luna Nora Hilda
+## Integrante 3: Rosas Paz Miguel Ángel 
 
 Parte I.
  mkdir bioCompu_p02
