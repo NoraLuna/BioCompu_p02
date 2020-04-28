@@ -1,8 +1,8 @@
 #  Comandos de git practica02
 ## Equipo BioCompu
-## Integrante 1: G˙zman Favila Gabriela
-## Integrante 2: Hern·ndez Luna Nora Hilda
-## Integrante 3: Rosas Paz Miguel ¡ngel 
+## Integrante 1: G√∫zman Favila Gabriela
+## Integrante 2: Hern√°ndez Luna Nora Hilda
+## Integrante 3: Rosas Paz Miguel √Ångel 
 
 ### Parte I.
 mkdir bioCompu_p02
@@ -71,21 +71,21 @@ vi delay.sh
 
 ./fastqc_run.sh
 
-**Respuesta de la pregunta 3:** An·lisis de gr·ficas FastqC
+**Respuesta de la pregunta 3:** An√°lisis de gr√°ficas FastqC
 
-**Archivo 1:** La calidad de la secuencia en general es buena, con peores valores en las primeras posiciones, pero siempre cayendo en la regiÛn de calidad verde. 
+**Archivo 1:** La calidad de la secuencia en general es buena, con peores valores en las primeras posiciones, pero siempre cayendo en la regi√≥n de calidad verde. 
 
-La gr·fica de calidad por mosaico no muestras celdas con mala calidad. La media de la calidad es 37 y la mayorÌa de las secuencias se encuentran en este valor.
+La gr√°fica de calidad por mosaico no muestras celdas con mala calidad. La media de la calidad es 37 y la mayor√≠a de las secuencias se encuentran en este valor.
 
-AsÌ pues, la cantidad de GC de la secuencia se acerca mucho a la proporciÛn teÛrica y el contenido de N por base pr·cticamente nulo. 
+As√≠ pues, la cantidad de GC de la secuencia se acerca mucho a la proporci√≥n te√≥rica y el contenido de N por base pr√°cticamente nulo. 
 
 Todas las secuencias presentan una longitud de 150 pares de bases, no hay secuencias duplicadas o sobre representadas. 
 
-En conjunto, estos datos muestras que esta secuenciaciÛn tiene una muy buena calidad. 
+En conjunto, estos datos muestras que esta secuenciaci√≥n tiene una muy buena calidad. 
 
-**Archivo 2:** Las calidades por base son buenas, siempre entrando en un valor entre 28-40. No obstante, la calidad por posiciÛn presenta mayor variaciÛn que en la secuencia anterior.
+**Archivo 2:** Las calidades por base son buenas, siempre entrando en un valor entre 28-40. No obstante, la calidad por posici√≥n presenta mayor variaci√≥n que en la secuencia anterior.
 
-La gr·fica de mosaico no muestra celdas con mala calidad. La media de la calidad es 37, con la mayorÌa de las secuenicas en este valor. 
+La gr√°fica de mosaico no muestra celdas con mala calidad. La media de la calidad es 37, con la mayor√≠a de las secuenicas en este valor. 
 
 La cantidad de GC observada se acerca a la esperada y el contenido de N es casi nulo. Todas las secuenicas presentan longitud de 150 pb, no hay secuencias duplicadas o sobre representadas.
 
@@ -101,9 +101,9 @@ mv Virgibacillus_2.html /home/genomica_2020-2/bioCompu_p02/data/raw_data
 
 chmod+x fastqc
 
-ln -s /Virgibacillus_1.fastq.gz /mnt/c/Users/Gabriela/Downloads/genomica_2020/genomica_2020-2-master/BioCompu_p02/data/filtered/Virgibacillus_1.fastq.gz #teÛricos
+ln -s /Virgibacillus_1.fastq.gz /mnt/c/Users/Gabriela/Downloads/genomica_2020/genomica_2020-2-master/BioCompu_p02/data/filtered/Virgibacillus_1.fastq.gz #te√≥ricos
 
-ln -s /Virgibacillus_2.fastq.gz /mnt/c/Users/Grabiela/Downloads/genomica_2020/genomica_2020-2-master/BioCompu_p02/data/filtered/Virgibacillus_2.fastq.gz #teÛricos
+ln -s /Virgibacillus_2.fastq.gz /mnt/c/Users/Grabiela/Downloads/genomica_2020/genomica_2020-2-master/BioCompu_p02/data/filtered/Virgibacillus_2.fastq.gz #te√≥ricos
 
 touch fastqc2_run.sh
 
@@ -116,17 +116,17 @@ vi fastqc2_run.sh
 
 ./fastqc_run.sh
 
-**Respuesta de la pregunta 2:** La tecnologÌa utilizada fue Illumina/ Sanger. En esta tecnologÌa, se utilizan nucleÛtidos terminadores
+**Respuesta de la pregunta 2:** La tecnolog√≠a utilizada fue Illumina/ Sanger. En esta tecnolog√≠a, se utilizan nucle√≥tidos terminadores
 
-marcados con molÈculas fluorescentes al igual que en la SecuenciaciÛn de Sanger. Adem·s de tener la capacidad
+marcados con mol√©culas fluorescentes al igual que en la Secuenciaci√≥n de Sanger. Adem√°s de tener la capacidad
 
-de realizar millones de secuencias en cada corrida, la diferencia con el mÈtodo convencional es la posibilidad 
+de realizar millones de secuencias en cada corrida, la diferencia con el m√©todo convencional es la posibilidad 
 
-de eliminar la fluorescencia una vez obtenida la imagen, y desbloquear carbono 3í de modo que pueda aceptar una nueva
+de eliminar la fluorescencia una vez obtenida la imagen, y desbloquear carbono 3‚Äô de modo que pueda aceptar una nueva
 
-base para continuar la reacciÛn de secuenciaciÛn, haciendo que la incorporaciÛn de un
+base para continuar la reacci√≥n de secuenciaci√≥n, haciendo que la incorporaci√≥n de un
 
-nucleÛtido terminador sea reversible.
+nucle√≥tido terminador sea reversible.
 
 **Respuesta de la pregunta 3:** Cobertura del genoma = ( 9108064*150)/4561556 = 299.5051
 
@@ -134,26 +134,26 @@ nucleÛtido terminador sea reversible.
 
 **Respuesta de la pregunta 5:** 
 
-**Archivo1:** Las calidades por base son buenas en la mayorÌa de la secuencias, pero decaen en el extremo 3', llegando hasta la regiÛn roja (mala calidad). 
+**Archivo1:** Las calidades por base son buenas en la mayor√≠a de la secuencias, pero decaen en el extremo 3', llegando hasta la regi√≥n roja (mala calidad). 
 
-La media de la calidad es de 36, pero se observa un pico en el valor de calidad 18-20. Si bien, no muchas secuencias caen en el valor anterior, estas podrÌan representar el extremo 3'.
+La media de la calidad es de 36, pero se observa un pico en el valor de calidad 18-20. Si bien, no muchas secuencias caen en el valor anterior, estas podr√≠an representar el extremo 3'.
 
-la cantidad de GC observada se acerca mucho a la esperada, pero la distribuciÛn en la gr·fica es ligeramente distinta em ambas, lo que podrÌa deberse a las lecturas de mala calidad en 3'. 
+la cantidad de GC observada se acerca mucho a la esperada, pero la distribuci√≥n en la gr√°fica es ligeramente distinta em ambas, lo que podr√≠a deberse a las lecturas de mala calidad en 3'. 
 
-No obstante, la cantidad de N es pr·cticamente nula. 
+No obstante, la cantidad de N es pr√°cticamente nula. 
 
-**Archivo2:** Al igual que en el archivo 1, las calidades por base son buenas en la mayorÌa de la secuencias, pero decaen en el extremo 3', particularmente a partir de 105- 109 pb, llegando hasta la regiÛn roja (mala calidad). 
+**Archivo2:** Al igual que en el archivo 1, las calidades por base son buenas en la mayor√≠a de la secuencias, pero decaen en el extremo 3', particularmente a partir de 105- 109 pb, llegando hasta la regi√≥n roja (mala calidad). 
 
-La media de la calidad es de 36, pero se observa un pico en el valor de calidad 18-20. Si bien, no muchas secuencias caen en el valor anterior, estas podrÌan representar el extremo 3'.
+La media de la calidad es de 36, pero se observa un pico en el valor de calidad 18-20. Si bien, no muchas secuencias caen en el valor anterior, estas podr√≠an representar el extremo 3'.
 
-la cantidad de GC observada se acerca mucho a la esperada, pero la distribuciÛn en la gr·fica es ligeramente distinta em ambas, lo que podrÌa deberse a las lecturas de mala calidad en 3'. 
+la cantidad de GC observada se acerca mucho a la esperada, pero la distribuci√≥n en la gr√°fica es ligeramente distinta em ambas, lo que podr√≠a deberse a las lecturas de mala calidad en 3'. 
 
-No obstante, la cantidad de N es pr·cticamente nula. 
+No obstante, la cantidad de N es pr√°cticamente nula. 
 
-**Respuesta de la pregunta 6:**
+**Respuesta de la pregunta 6:** 30 phred
 
-**Respuesta de la pregunta 7:** Debido a que nuestras secuencias se encuentran con mala calidad hacia el extremo 3', pensamos que lo m·s conveniente en este caso es cortar las secuencias entre las 105 y109 pb, 
+**Respuesta de la pregunta 7:** Debido a que nuestras secuencias se encuentran con mala calidad hacia el extremo 3', pensamos que lo m√°s conveniente en este caso es cortar las secuencias entre las 105 y109 pb, 
 
-que es el intervalo de pb donde se cmienza a presentar la baja calidad de las secuencias. Para ello, Trimmomatic podrÌa servir como software base, pues entre sus propiedades se encuentra la capacidad
+que es el intervalo de pb donde se cmienza a presentar la baja calidad de las secuencias. Para ello, Trimmomatic podr√≠a servir como software base, pues entre sus propiedades se encuentra la capacidad
 
 de remover adaptadores y de cortar secuencias.
