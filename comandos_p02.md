@@ -29,3 +29,5 @@ el CIGAR string es 6M2I2D4M1D3M con 13M
 
 AGCATGTTAGATTA  GATAGCTGTGCTA
       TTAGATAAAGGATA CTG
+Parte IV.
+agragar comando de descompresión###
