@@ -14,16 +14,16 @@ mv filtered /home/genomica_2020-2/bioCompu_p02/data
 mv raw_data /home/genomica_2020-2/bioCompu_p02/data 
 ### Parte II.
 
-|Plataforma	|Longitud de reads (pb)|# reads xrun|Tiempo|Costo x 10^6 bases|Error (%)|Química   	   |
-|---------------|:--------------------:|:----------:|:----:|------------------|---------|------------------|
-|Primera Gen.   |		       |	    |      |                  |         |          	   |
-|Sanger/lifeTech|         800          |      1     |2 Hrs |       $2400      |   0.3   |Dideoxi terminator|
-|Segunda Gen.   |                      |            |      |                  |         |          	   |
-|Ilumina        |         300          |     1800   |3 Días|       $100       |   0.1   |Terminadores Rev. |
-|454 Roche      |        1000          |     0.54   |24 Hrs|      $10000      |    1    |Pirosecuenciación |
-|Tercera Gen.   |                      |            |      |                  |         |                  |
-|Pacific Biosci.|        20000         |    12000   |3 Hrs |       $600       |    10   |Sec. mol. sencilla|
-|Oxford nanopore|        10000         |      42    |2 Días|      $10000      |    10   |Sec. mol. sencilla|
+|Plataforma	|Longitud de reads (pb)|# reads xrun|Tiempo|Costo x 10^6 bases|Error (%)|Química   	                   |
+|---------------|:--------------------:|:----------:|:----:|------------------|---------|----------------------------------|
+|Primera Gen.   |		       |	    |      |                  |         |          	                   |
+|Sanger/lifeTech|         800          |      1     |2 Hrs |       $2400      |   0.3   |Dideoxi terminator                |
+|Segunda Gen.   |                      |            |      |                  |         |          	                   |
+|Ilumina        |         300          |     1800   |3 Días|       $100       |   0.1   |Terminadores Reversibles          |
+|454 Roche      |        1000          |     0.54   |24 Hrs|      $10000      |    1    |Pirosecuenciación                 |
+|Tercera Gen.   |                      |            |      |                  |         |                                  |
+|Pacific Biosci.|        20000         |    12000   |3 Hrs |       $600       |    10   |Secuenciación de molécula sencilla|
+|Oxford nanopore|        10000         |      42    |2 Días|      $10000      |    10   |Secuenciación de molécula sencilla|
 ### Parte III. 
 ln -s /ERR486827_2.fastq.gz /mnt/c/Users/Gabriela/Downloads/genomica_2020/genomica_2020-2-master/BioCompu_p02/data/filtered/ERR486827_2.fastq.gz 
 
