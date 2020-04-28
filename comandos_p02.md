@@ -5,16 +5,16 @@
 ## Integrante 3: Rosas Paz Miguel Ángel 
 
 ### Parte I.
-`mkdir bioCompu_p02
+mkdir bioCompu_p02
 
 mkdir data && mkdir filtered && mkdir raw_data && mkdir meta && mkdir scripts && mkdir figures && mkdir archive
 
 mv filtered /home/genomica_2020-2/bioCompu_p02/data 
 
-mv raw_data /home/genomica_2020-2/bioCompu_p02/data` 
+mv raw_data /home/genomica_2020-2/bioCompu_p02/data
 
 ### Parte III. 
-`ln -s /ERR486827_2.fastq.gz /mnt/c/Users/Gabriela/Downloads/genomica_2020/genomica_2020-2-master/BioCompu_p02/data/filtered/ERR486827_2.fastq.gz 
+ln -s /ERR486827_2.fastq.gz /mnt/c/Users/Gabriela/Downloads/genomica_2020/genomica_2020-2-master/BioCompu_p02/data/filtered/ERR486827_2.fastq.gz 
 
 ln -s /ERR486827_1.fastq.gz /mnt/c/Users/Grabiela/Downloads/genomica_2020/genomica_2020-2-master/BioCompu_p02/data/filtered/ERR486827_1.fastq.gz 
 
@@ -34,7 +34,7 @@ awk 'NR%2==0{print length "."}' file_2.fa
 
 awk 'NR%2==0{print length "."}' file.fa >longitudes_2.csv
 
-ln -s /sequence.gff3 /home/genomica_2020-2/nueva/bioCompu_p02/data/filtered/sequence.gff3`
+ln -s /sequence.gff3 /home/genomica_2020-2/nueva/bioCompu_p02/data/filtered/sequence.gff3
 
 **Respuesta de la pregunta 2:** Ambos archivos tienen la misma cantidad de secuencias con 398824 cada una.
 
@@ -42,7 +42,7 @@ ln -s /sequence.gff3 /home/genomica_2020-2/nueva/bioCompu_p02/data/filtered/sequ
 
 ### Parte IV.
 
-`mkdir bin
+mkdir bin
 
 unzip fastqc_v0.11.0.zip
 
@@ -61,7 +61,7 @@ vi delay.sh
 
 |fastqc file_1.fastq file_2.fastq|
 
-./fastqc_run.sh`
+./fastqc_run.sh
 
 **Respuesta de la pregunta 3:** Análisis de gráficas FastqC
 
