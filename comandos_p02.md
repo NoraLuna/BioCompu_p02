@@ -173,3 +173,16 @@ No obstante, la cantidad de N es prácticamente nula.
 que es el intervalo de pb donde se cmienza a presentar la baja calidad de las secuencias. Para ello, Trimmomatic podría servir como software base, pues entre sus propiedades se encuentra la capacidad
 
 de remover adaptadores y de cortar secuencias.
+
+**Respuesta de la pregunta 8:**
+
+#sin probar 
+
+#!/bin/bash
+
+for f1 in /mnt/c/Users/Grabiela/Downloads/genomica_2020/genomica_2020-2-master/BioCompu_p02/data/filtered/Virgibacillus_2.fastq.gz
+
+do
+java -jar /path_to_trimmomatic_folder/trimmomatic-0.36.jar SE -phred33 $f1 ${f1%%.fastq.gz}"trimmed_minleng50.fq.gz" ILLUMINACLIP:/path_to_trimmomatic_folder/adapters/TruSeq2-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:50
+
+done
