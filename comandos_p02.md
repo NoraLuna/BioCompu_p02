@@ -24,6 +24,11 @@ mv raw_data /home/genomica_2020-2/bioCompu_p02/data
 |Tercera Gen.   |                      |            |      |                  |         |                                  |
 |Pacific Biosci.|        20000         |    12000   |3 Hrs |       $600       |    10   |Secuenciación de molécula sencilla|
 |Oxford nanopore|        10000         |      42    |2 Días|      $10000      |    10   |Secuenciación de molécula sencilla|
+
+**Referencias**
+
+Garrido-Cardenas, J., Garcia-Maroto, F., Alvarez-Bermejo, J. and Manzano-Agugliaro, F. (2017) DNA Sequencing sensors: An Overview. Sensors, 17(3), 58. 
+
 ### Parte III. 
 ln -s /ERR486827_2.fastq.gz /mnt/c/Users/Gabriela/Downloads/genomica_2020/genomica_2020-2-master/BioCompu_p02/data/filtered/ERR486827_2.fastq.gz 
 
