@@ -1,4 +1,4 @@
-#  Comandos de git practica02
+﻿#  Comandos de git practica02
 ## Equipo BioCompu
 ## Integrante 1: Gúzman Favila Gabriela
 ## Integrante 2: Hernández Luna Nora Hilda
@@ -12,6 +12,11 @@ mkdir data && mkdir filtered && mkdir raw_data && mkdir meta && mkdir scripts &&
 mv filtered /home/genomica_2020-2/bioCompu_p02/data 
 
 mv raw_data /home/genomica_2020-2/bioCompu_p02/data 
+### Parte II.
+
+|Plataforma	|Longitud de reads (pb)|# reads xrun|Tiempo|Costo x 10^6 bases|Química|
+|---------------|:--------------------:|:----------:|:----:|------------------|-------|
+|
 
 ### Parte III. 
 ln -s /ERR486827_2.fastq.gz /mnt/c/Users/Gabriela/Downloads/genomica_2020/genomica_2020-2-master/BioCompu_p02/data/filtered/ERR486827_2.fastq.gz 
