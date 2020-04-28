@@ -1,8 +1,8 @@
 #  Comandos de git practica02
 ## Equipo BioCompu
-## Integrante 1: G˙zman Favila Gabriela
-## Integrante 2: Hern·ndez Luna Nora Hilda
-## Integrante 3: Rosas Paz Miguel ¡ngel 
+## Integrante 1: G√∫zman Favila Gabriela
+## Integrante 2: Hern√°ndez Luna Nora Hilda
+## Integrante 3: Rosas Paz Miguel √Ångel 
 
 ### Parte I.
 `mkdir bioCompu_p02
@@ -14,7 +14,7 @@ mv filtered /home/genomica_2020-2/bioCompu_p02/data
 mv raw_data /home/genomica_2020-2/bioCompu_p02/data` 
 
 ### Parte III. 
-ln -s /ERR486827_2.fastq.gz /mnt/c/Users/Gabriela/Downloads/genomica_2020/genomica_2020-2-master/BioCompu_p02/data/filtered/ERR486827_2.fastq.gz 
+`ln -s /ERR486827_2.fastq.gz /mnt/c/Users/Gabriela/Downloads/genomica_2020/genomica_2020-2-master/BioCompu_p02/data/filtered/ERR486827_2.fastq.gz 
 
 ln -s /ERR486827_1.fastq.gz /mnt/c/Users/Grabiela/Downloads/genomica_2020/genomica_2020-2-master/BioCompu_p02/data/filtered/ERR486827_1.fastq.gz 
 
@@ -34,15 +34,15 @@ awk 'NR%2==0{print length "."}' file_2.fa
 
 awk 'NR%2==0{print length "."}' file.fa >longitudes_2.csv
 
-ln -s /sequence.gff3 /home/genomica_2020-2/nueva/bioCompu_p02/data/filtered/sequence.gff3
+ln -s /sequence.gff3 /home/genomica_2020-2/nueva/bioCompu_p02/data/filtered/sequence.gff3`
 
 **Respuesta de la pregunta 2:** Ambos archivos tienen la misma cantidad de secuencias con 398824 cada una.
 
-**Respuesta de la pregunta 3:** #### aqui va lo que se borrÛ
+**Respuesta de la pregunta 3:** #### aqui va lo que se borr√≥
 
 ### Parte IV.
 
-mkdir bin
+`mkdir bin
 
 unzip fastqc_v0.11.0.zip
 
@@ -61,23 +61,23 @@ vi delay.sh
 
 |fastqc file_1.fastq file_2.fastq|
 
-./fastqc_run.sh
+./fastqc_run.sh`
 
-**Respuesta de la pregunta 3:** An·lisis de gr·ficas FastqC
+**Respuesta de la pregunta 3:** An√°lisis de gr√°ficas FastqC
 
-**Archivo 1:** La calidad de la secuencia en general es buena, con peores valores en las primeras posiciones, pero siempre cayendo en la regiÛn de calidad verde. 
+**Archivo 1:** La calidad de la secuencia en general es buena, con peores valores en las primeras posiciones, pero siempre cayendo en la regi√≥n de calidad verde. 
 
-La gr·fica de calidad por mosaico no muestras celdas con mala calidad. La media de la calidad es 37 y la mayorÌa de las secuencias se encuentran en este valor.
+La gr√°fica de calidad por mosaico no muestras celdas con mala calidad. La media de la calidad es 37 y la mayor√≠a de las secuencias se encuentran en este valor.
 
-AsÌ pues, la cantidad de GC de la secuencia se acerca mucho a la proporciÛn teÛrica y el contenido de N por base pr·cticamente nulo. 
+As√≠ pues, la cantidad de GC de la secuencia se acerca mucho a la proporci√≥n te√≥rica y el contenido de N por base pr√°cticamente nulo. 
 
 Todas las secuencias presentan una longitud de 150 pares de bases, no hay secuencias duplicadas o sobre representadas. 
 
-En conjunto, estos datos muestras que esta secuenciaciÛn tiene una muy buena calidad. 
+En conjunto, estos datos muestras que esta secuenciaci√≥n tiene una muy buena calidad. 
 
-**Archivo 2:** Las calidades por base son buenas, siempre entrando en un valor entre 28-40. No obstante, la calidad por posiciÛn presenta mayor variaciÛn que en la secuencia anterior.
+**Archivo 2:** Las calidades por base son buenas, siempre entrando en un valor entre 28-40. No obstante, la calidad por posici√≥n presenta mayor variaci√≥n que en la secuencia anterior.
 
-La gr·fica de mosaico no muestra celdas con mala calidad. La media de la calidad es 37, con la mayorÌa de las secuenicas en este valor. 
+La gr√°fica de mosaico no muestra celdas con mala calidad. La media de la calidad es 37, con la mayor√≠a de las secuenicas en este valor. 
 
 La cantidad de GC observada se acerca a la esperada y el contenido de N es casi nulo. Todas las secuenicas presentan longitud de 150 pb, no hay secuencias duplicadas o sobre representadas.
 
